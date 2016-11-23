@@ -1,0 +1,145 @@
+/**************************************
+RESPONSIVE LAYOUT CSS
+**************************************/
+
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 800px) {
+
+  .wrapper {
+    max-width: 90%;
+  }
+  
+  header {
+    width: 100%;
+  }
+  
+  nav, section {
+    float: left;
+  }
+
+  nav {
+    width: 20.83333%;
+    margin-right: 1.041667%;
+  }
+
+  section {
+    width: 78.125%;
+  }
+  
+}
+
+
+@media screen and (min-width: 1000px) {
+
+  .wrapper {
+    max-width: 66.66667%;
+  }
+  
+}
+
+
+
+/**************************************
+CSS TO MAKE THE EXAMPLE LOOK PRETTY
+**************************************/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Helvetica;
+  text-align: center;
+  margin: 0;
+}
+
+header,
+nav,
+section {
+  border: 1px solid rgba(255,255,255,0.8);
+  margin-bottom: 10px;
+  border-radius: 3px;
+}
+
+header {
+  padding: 20px 0;
+}
+
+nav, section {
+  padding: 200px 0;
+}
+
+/**************************************
+navbar
+**************************************/
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+
+
+ul li a:hover:not(.active) {
+	background-color: #111;
+}
+
+@media screen and (max-width: 600px) {
+	ul nav li.right,
+	ul nav li {
+		float: none;
+	}
+}
+
+.active {
+    background-color: #ffb366;
+    color: black;
+}
+
+a {
+  text-decoration: none;
+  color: #b35900;
+}
+
+td {
+  display:inline-block;
+  padding-bottom: 10px;
+  padding-top: 1px;
+}
+
+.td { 
+  border-radius: 20px;
+}    
