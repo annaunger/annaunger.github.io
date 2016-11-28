@@ -115,6 +115,7 @@ li a:hover {
 
 ul li a:hover:not(.active) {
 	background-color: white;
+	color: black;
 }
 
 @media screen and (max-width: 600px) {
