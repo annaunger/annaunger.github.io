@@ -1,0 +1,24 @@
+@media screen and (min-width: 621px) {
+	
+	
+	.container1, #projectsmob, #prmob {
+		display: none;
+	}
+	body {
+		margin: 0 35px 0 35px;
+	}
+	#back {
+		margin: 0 5px 0 5px;
+
+	}
+	.headcontainer {
+		padding-bottom: 300px;
+	}
+
+	
+
+
+	
+	
+	
+}

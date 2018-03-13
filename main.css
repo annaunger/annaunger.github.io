@@ -1,0 +1,352 @@
+
+.fig, .color, .upper, .lower, .portfolio, .text, .resume, .top, .press, .stats, .contact, .container1 {
+	font-family: "Roboto slab";
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  	align-items: center;
+  	border: 5px solid #fff;
+  	
+}
+
+.container, .placard, .fig {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  	align-items: flex-start;
+	
+}
+
+#back {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  	align-items: center;
+  	font-size:48px;
+  	color: #a239ca;
+  	padding: 30px 0 30px 0;
+}
+
+#backtop {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+  	align-items: center;
+  	font-size:48px;
+  	color: #88d317;
+  	padding: 30px 0 30px 0;
+}
+
+
+/*backgroundcolor*/
+.color, .upper, .lower, .top, .portfolio, .resume, .press, .stats, .contact, .top {
+	background-color: #a8afbe;
+  	justify-content: space-around;
+  	color: white;
+  	font-size: 23px;
+	
+}
+.top {
+	padding-top: 60px;
+	color: white;
+  	font-size: 23px;
+  	flex-direction: row;
+	justify-content: space-between;
+}
+/*text mob*/
+.container {
+	font-family: "Roboto slab";
+	color: #0e0b16;
+
+}
+.box {
+	display: flex;
+	flex-direction: row;
+}
+
+
+.text {
+	width: 200px;
+}
+
+.placard {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  	align-items: center;
+  	width: 200px;
+  	padding-top: 20px;
+  	
+}
+
+.plc {
+	width: 200px;
+	border: black;
+	border-style: solid;
+	border-width: 1px;
+
+}
+
+.border {
+	border: #192231;
+	border-style: solid;
+}
+
+
+.container a:hover img {
+	opacity: 0.15;
+}
+
+
+
+.container a img {
+	transition: opacity 0.3s ease-in-out;
+	background-color: black;
+}
+
+
+
+a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #a8afbe;
+  
+}
+/*hover arrow line*/
+a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4717f6;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+
+}
+
+a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+
+}
+
+/*links before hover*/
+a {
+   outline: 0;
+   color: #a8afbe;
+}
+
+.p {
+	outline: 0;
+   color: #0e0b16;
+}
+
+.upper:hover {
+  background-color: white;
+  
+} 
+
+
+.lower:hover {
+  background-color: white;
+  
+}
+
+
+
+
+/*@media screen and (max-width: 350px) {
+	.tedword { width: 20px; } 
+
+mån-lör*/
+
+
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto slab";
+
+  
+  /* make it look decent enough */
+  
+  
+  font-family: "Roboto slab", sans-serif;
+}
+
+
+
+#menuToggle
+{
+  display: block;
+  position: relative;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+
+
+
+.headcontainer {
+ display: flex;
+ flex-direction: row;
+ padding: 2.3em 0;
+
+
+}   
+.logo {
+	flex-wrap: wrap-reverse;
+	align-items: flex-end;
+	font-stretch: ultra-condensed;
+ 	margin-left: 5%;
+ 	font-size: 123px;
+ 	font-weight: 10px;
+	justify-content: flex-end;
+	color: black;
+	text-shadow: 0 0 35px #a239ca;
+}
+
+nav {
+ margin: 1.5em 0 0 5%;
+}
+header ul li {
+ text-align: center;
+ display: inline-block;
+ padding: 0 1.4em 0 0;
+ font-size: 0.9em;
+}
+
+#navname {
+	font-weight: 0.01px;
+}
+
+/*menutext*/
+header ul li a {
+ text-decoration: none;
+ color: #a8afbe;
+ font-family: "Roboto slab";
+}
+li a.active {
+ color: #4717f6;
+ border-bottom: 2px solid #a8afbe;
+ font-weight: 300;
+}
+/*menutext hover*/
+li a:hover {
+ color: #a239ca;
+}
+
+
+
+
+
+
+
+
+.container {
+  max-width: 1125px;
+  margin: 0 auto;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.gallery-item {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  text-decoration: none;
+}
+
+.gallery-item img {
+  position: absolute;
+}
+
+.text-wrapper {
+  position: relative;
+  width: 230px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding: 10px;
+  color: #fff;
+  opacity: 0;
+}
+
+.text-wrapper:hover {
+  transition: all 0.8s ease;
+  background: #4717f6;
+  opacity: 0.8;
+}
+
+.name {
+  font-size: 1em;
+}
+
+
+/* Because there is no hover on a touch devide, we need to move the text to the bottom of the image and display it by default */
+
+/*@media only screen and (max-width: 1024px) {
+  .text-wrapper {
+    opacity: 1;
+    justify-content: flex-end;
+    text-shadow: 1px 1px 1px #000;
+  }
+  .title {
+    margin-bottom: 1em;
+  }
+}*/
+
+.node circle {
+  fill: #4717f6;
+  stroke: #a239ca;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px "Roboto slab";
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
