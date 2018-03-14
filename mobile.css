@@ -1,5 +1,5 @@
 @media screen and (max-width: 620px) {
-	.upper, #projectspc, #noshow, .container2, #prpc {
+	.upper, #projectspc, #noshow, .container2, #prpc, #aboutpc {
 		display: none;
 	}
 	.box {
