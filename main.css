@@ -1,6 +1,6 @@
 
 .fig, .color, .upper, .lower, .portfolio, .text, .resume, .top, .press, .stats, .contact, .container1 {
-	font-family: "Roboto slab";
+	font-family: "Roboto";
 
 	display: flex;
 	flex-direction: row;
@@ -58,7 +58,7 @@
 }
 /*text mob*/
 .container {
-	font-family: "Roboto slab";
+	font-family: "Roboto";
 	color: #0e0b16;
 
 }
@@ -177,13 +177,13 @@ body
 {
   margin: 0;
   padding: 0;
-  font-family: "Roboto slab";
+  font-family: "Roboto";
 
   
   /* make it look decent enough */
   
   
-  font-family: "Roboto slab", sans-serif;
+  font-family: "Roboto";
 }
 
 
@@ -258,7 +258,7 @@ header ul li {
 header ul li a {
  text-decoration: none;
  color: #a8afbe;
- font-family: "Roboto slab";
+ font-family: "Roboto";
 }
 li a.active {
  color: #4717f6;
@@ -342,7 +342,7 @@ li a:hover {
 }
 
 .node text {
-  font: 12px "Roboto slab";
+  font: 12px "Roboto";
 }
 
 .link {
