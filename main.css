@@ -69,12 +69,12 @@ body {
 .top {
 	background-color: #a8afbe;
 	justify-content: space-around;
-	color: white;
+	color: #e7dfdd;
 	font-size: 23px;
 }
 
 .sub {
-	background-color: white;
+	background-color: #e7dfdd;
 	justify-content: space-around;
 	color: #a8afbe;
 	font-size: 23px;
