@@ -1,6 +1,6 @@
 
 .fig, .color, .upper, .lower, .portfolio, .text, .resume, .top, .press, .stats, .contact, .container1 {
-	font-family: "Roboto";
+	font-family: "Roboto slab";
 
 	display: flex;
 	flex-direction: row;
@@ -17,6 +17,8 @@
 	flex-wrap: wrap;
 	justify-content: center;
   	align-items: flex-start;
+  	padding-top: 20px;
+
 	
 }
 
@@ -47,7 +49,23 @@
   	justify-content: space-around;
   	color: white;
   	font-size: 23px;
+
 	
+}
+
+.sub {
+	background-color: white;
+  	justify-content: space-around;
+  	color: #a8afbe;
+  	font-size: 23px;
+  	font-family: "Roboto slab";
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+  	align-items: center;
+  	border: 5px solid #fff;
+  	padding-top: 20px;
 }
 .top {
 	padding-top: 60px;
@@ -58,7 +76,7 @@
 }
 /*text mob*/
 .container {
-	font-family: "Roboto";
+	font-family: "Roboto slab";
 	color: #0e0b16;
 
 }
@@ -177,13 +195,13 @@ body
 {
   margin: 0;
   padding: 0;
-  font-family: "Roboto";
+  font-family: "Roboto slab";
 
   
   /* make it look decent enough */
   
   
-  font-family: "Roboto";
+  font-family: "Roboto slab", sans-serif;
 }
 
 
@@ -258,7 +276,7 @@ header ul li {
 header ul li a {
  text-decoration: none;
  color: #a8afbe;
- font-family: "Roboto";
+ font-family: "Roboto slab";
 }
 li a.active {
  color: #4717f6;
@@ -285,6 +303,7 @@ li a:hover {
 .gallery {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .gallery-item {
@@ -342,7 +361,7 @@ li a:hover {
 }
 
 .node text {
-  font: 12px "Roboto";
+  font: 12px "Roboto slab";
 }
 
 .link {
@@ -350,3 +369,115 @@ li a:hover {
   stroke: #ccc;
   stroke-width: 2px;
 }
+
+
+
+
+
+
+
+
+
+
+#dashboard {
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+#dashboard1 {
+	
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+path {  
+    stroke: #fff; 
+}
+
+
+path:hover {  
+    opacity:0.9; 
+}
+
+rect:hover {  
+    fill:#0e0b16; 
+}
+
+.title h1 {
+    font-family: "Roboto";
+}
+
+.axis  {  
+    font-family: "Roboto";
+    font: 20px;
+}
+
+
+tbody {
+	font-family: "Roboto";
+    font: 20px;
+    color: #a8afbe;
+}
+
+g {
+	font-family: "Roboto";
+    font: 20px;
+    color: #a8afbe;
+}
+
+
+
+
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.tick line {
+    stroke: none;
+}
+
+
+
+.bar text {
+    display: none;
+}
+
+.x.axis path {  
+    display: none; 
+}
+
+.legend {
+    margin-bottom:76px;
+    display:inline-block;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+
+
+
+.legend td{
+    padding:4px 5px;
+    vertical-align:bottom;
+}
+
+.legendFreq, .legendPerc {
+    display: none;
+}
+
+
+
+
+
+
