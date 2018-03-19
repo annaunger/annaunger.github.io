@@ -292,7 +292,7 @@ function dashboard1(id, fData){
     }
     
     // calculate total frequency by segment for all state.
-    var tF = ['Practical','Theoretical','Autonomous'].map(function(d){ 
+    var tF = ['Theoretical','Practical','Autonomous'].map(function(d){ 
         return {type:d, freq: d3.sum(fData.map(function(t){ return t.freq[d];}))}; 
     });    
     
