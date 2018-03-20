@@ -39,7 +39,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 48px;
-	color: #a239ca;
+	color: #fcfbfb;
 	padding: 30px 0 30px 0;
 }
 
@@ -68,14 +68,14 @@ body {
 .top {
 	background-color: #a8afbe;
 	justify-content: space-around;
-	color: #e7dfdd;
+	color: #fcfbfb;
 	font-size: 23px;
 }
 
 .sub {
 	background-color: #e7dfdd;
 	justify-content: space-around;
-	color: #a8afbe;
+	color: #fcfbfb;
 	font-size: 23px;
 	font-family: "Roboto slab";
 	display: flex;
