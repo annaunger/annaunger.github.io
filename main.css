@@ -66,9 +66,9 @@ body {
 .stats,
 .contact,
 .top {
-	background-color: #fcfbfb;
+	background-color: #a8afbe;
 	justify-content: space-around;
-	color: #a8afbe;
+	color: #fcfbfb;
 	font-size: 23px;
 }
 
