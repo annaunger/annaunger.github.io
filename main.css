@@ -22,6 +22,10 @@ body {
 	align-items: center;
 }
 
+element.style {
+	color: #a8afbe;
+}
+
 .container,
 .placard,
 .fig {
