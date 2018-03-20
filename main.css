@@ -20,7 +20,6 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	border: 5px solid #fff;
 }
 
 .container,
@@ -84,13 +83,12 @@ body {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
-	border: 5px solid #fff;
 	padding-top: 20px;
 }
 
 .top {
 	padding-top: 60px;
-	color: white;
+	color: #a8afbe;
 	font-size: 23px;
 	flex-direction: row;
 	justify-content: space-between;
