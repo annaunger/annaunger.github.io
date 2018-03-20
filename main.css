@@ -1,5 +1,5 @@
 body {
-	background-color: #e7dfdd;
+	background-color: #fcfbfb;
 }
 
 .fig,
@@ -68,14 +68,14 @@ body {
 .top {
 	background-color: #fcfbfb;
 	justify-content: space-around;
-	color: #fcfbfb;
+	color: #a8afbe;
 	font-size: 23px;
 }
 
 .sub {
-	background-color: #e7dfdd;
+	background-color: #fcfbfb;
 	justify-content: space-around;
-	color: #fcfbfb;
+	color: #a8afbe;
 	font-size: 23px;
 	font-family: "Roboto slab";
 	display: flex;
